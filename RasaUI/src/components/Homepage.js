@@ -10,10 +10,17 @@ const Homepage = () => {
  
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    localStorage.setItem("name", JSON.stringify(name));
+    
+    if(name !== ""){    
+        e.preventDefault();
+    localStorage.setItem("name", name);
     setSubmitted(true); 
     navigate('/basic');
+    }
+    else{
+        window.alert("Please enter name");
+    }
+
        
   };
 
