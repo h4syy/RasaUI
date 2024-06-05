@@ -19,10 +19,7 @@ function Basic(){
     
     },[chat])
 
-    
-
-
-    const handleSubmit=(evt)=>{
+      const handleSubmit=(evt)=>{
         evt.preventDefault();
         const name = "userid";
         const request_temp = {sender : "user", sender_id : name , msg : inputMessage};
@@ -102,7 +99,7 @@ function Basic(){
         
     }
     const styleBody = {
-        paddingTop : '10px',
+        paddingTop : '30px',
         height: '28rem',
         overflowY: 'a',
         overflowX: 'hidden',

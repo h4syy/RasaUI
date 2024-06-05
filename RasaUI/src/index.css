@@ -5,9 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
-    background-color: rgba(225, 211, 204, 0.7); /* Background color with 70% opacity */
-        
+  background-color: aliceblue;
    
 }
 
@@ -15,3 +13,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
